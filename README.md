@@ -41,7 +41,7 @@ An interactive visualization tool for displaying and manipulating hierarchical h
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/hardware-hierarchy-visualizer.git
+git clone https://github.com/suhasvirmani/hardware-hierarchy-visualizer.git
 cd hardware-hierarchy-visualizer
 ```
 
