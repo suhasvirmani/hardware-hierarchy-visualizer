@@ -95,7 +95,14 @@ npm run dev
 
 ## License
 
-ISC License
+This project is licensed under the ISC License - a permissive license similar to the MIT License but with simpler language. It allows you to:
+
+- Use the code commercially
+- Modify the code
+- Distribute the code
+- Use it privately
+
+The only requirement is that you include the original copyright notice and license text in any copy of the software/source.
 
 ## Acknowledgments
 
