@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Hierarchy Visualizer</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tree-input">
+            <h2>Input Tree Structure</h2>
+            <div id="tree-form">            <div class="node-input">
+                <input type="text" id="node-name" placeholder="Node name">
+                <button id="add-node">Add Node</button>
+                <button id="add-child">Add Child</button>
+            </div>
+            <div class="file-input">
+                <input type="file" id="json-file" accept=".json">
+                <button id="load-json">Load JSON</button>
+                <button id="export-json">Export JSON</button>
+            </div>
+            <div id="tree-preview"></div>
+            </div>
+        </div>
+        <div class="visualization">
+            <h2>Visualization</h2>
+            <select id="viz-type">
+                <option value="tree">Tree Layout</option>
+                <option value="radial">Radial Layout</option>
+                <option value="cluster">Cluster Layout</option>
+            </select>
+            <div id="visualization-container"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

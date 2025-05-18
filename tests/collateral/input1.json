@@ -1,0 +1,18 @@
+{
+ "name": "hub",
+ "children": [
+      { "name": "par1",
+        "children": [
+			{ "name" : "subpar1"}
+			]
+	  },
+	  { "name": "par2",
+	    "children" : [
+			{ "name" : "subpar2"}
+			]
+	  },
+	  { "name" : "par3",
+		"children" : []
+	  }
+  ]
+ }
